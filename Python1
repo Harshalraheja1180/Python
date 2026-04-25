@@ -1,0 +1,17 @@
+25-04-26
+for i in "Harshal":
+  print(i)
+
+#import overview
+import sys
+sys.platform
+
+# mutalble and Imutable data types
+x = 34
+y=x
+print(x)
+print(y)
+
+x= 203
+print(x)
+print(y) #coz variable ka reference change hota hai , memory ka nahi 
