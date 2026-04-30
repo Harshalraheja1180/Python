@@ -1,0 +1,72 @@
+import math
+math.pi
+import random
+random.random() #random numbers b/w 0-1
+
+
+random.choice([1,2,3,4,5]) #random numbers from the given range of the list
+#len() function
+name="Harshal"
+len(name)
+print(name[1])
+print(name[-1])
+name[1:4]
+#Program which tells lists are mutable
+a=[1,2,3,4,5]
+b=a
+print(a)
+print(b)
+a[0]=99
+print(a)
+print(b)
+b=[1,2,3,4,5]
+print(a)
+print(b)
+
+#Is Operator
+a=[1,2,3,4,5]
+b=a
+print(a)
+print(b)
+a==b
+print(a is b )
+b=[1,2,3,4,5]
+print(a is b)
+
+#Sets
+set1={1,2,4,5}
+print(set1 & {1, 11,22})
+print(set1 |{4,58,65})
+set1-{1,2,4,5} #dic type hota hai {} isliye o/p mai set() aayega
+
+#Strings
+coffee="cold coffee"
+coffee1=print(coffee[0])
+coffee2=print(coffee[5:12])
+
+#Methods in string 
+print(coffee.lower())
+print(coffee.upper())
+print(coffee.replace("cold","hot"))
+
+#converting string to a list 
+print(coffee.split())
+
+#finding index of given string
+print(coffee.find("cold"))
+
+#counting frequency of any string 
+print(coffee.count("coffee"))
+
+
+name="Harshal"
+subject="Python"
+order= "I am {} and I'm learning {}"
+print(order)
+print(order.format(name,subject))
+
+coffee=["cold","hot","iced"]
+print(" ".join(coffee))
+print(len(coffee))
+for i in coffee:
+  print(i)
